@@ -93,7 +93,7 @@ class TicketMachineTest {
 		assertThrows(IllegalArgumentException.class, () -> {
 			new TicketMachine(-50);
 		}, "Créer une machine avec un prix de ticket négatif doit lancer une exception");
-	}
+	}//
 }
 
 
